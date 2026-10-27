@@ -1,0 +1,165 @@
+en	zh	note	kind
+ISO 13485	质量管理体系标准	不译 ｜ 不翻译，原样保留	keep-as-is
+ISO 14971	风险管理标准	不译 ｜ 不翻译，原样保留	keep-as-is
+ISO 10993 / GB/T 16886	生物相容性标准	中文文档用 GB/T 16886，英文文档用 ISO 10993 ｜ 不翻译，原样保留	keep-as-is
+IEC 62304	软件生命周期	不译 ｜ 不翻译，原样保留	keep-as-is
+IEC 62366	可用性工程	不译 ｜ 不翻译，原样保留	keep-as-is
+IEC 60601	电气安全	不译 ｜ 不翻译，原样保留	keep-as-is
+ISO 11607	无菌屏障	不译 ｜ 不翻译，原样保留	keep-as-is
+510(k) / Premarket Notification	美国上市前通知	简称 510(k) 不译 ｜ 不翻译，原样保留	keep-as-is
+PMA (Premarket Approval)	美国上市前批准	不译 ｜ 不翻译，原样保留	keep-as-is
+De Novo	美国新型分类	不译 ｜ 不翻译，原样保留	keep-as-is
+EU MDR (2017/745)	欧盟医疗器械法规	不译 ｜ 不翻译，原样保留	keep-as-is
+EU IVDR (2017/746)	欧盟体外诊断法规	不译 ｜ 不翻译，原样保留	keep-as-is
+EUDAMED	欧盟医疗器械数据库	不译 ｜ 不翻译，原样保留	keep-as-is
+Notified Body	欧盟公告机构	不译（中文文档可写"公告机构"） ｜ 不翻译，原样保留	keep-as-is
+GUDID	美国全球唯一标识数据库	不译 ｜ 不翻译，原样保留	keep-as-is
+UDI (Unique Device Identification)	医疗器械唯一标识	首现写全称+缩写 ｜ 不翻译，原样保留	keep-as-is
+STED (Summary Technical Documentation)	技术文档摘要	不译 ｜ 不翻译，原样保留	keep-as-is
+eSTAR / eRPS	电子注册提交	不译 ｜ 不翻译，原样保留	keep-as-is
+MAH (Marketing Authorization Holder)	注册人制度/委托生产	不译 ｜ 不翻译，原样保留	keep-as-is
+intended use	预期用途	核心术语	term
+indications for use	适用症/适用范围		term
+contraindications	禁忌症	警示用语	term
+warnings	警告	警示用语	term
+precautions	注意事项		term
+adverse event	不良事件		term
+serious adverse event	严重不良事件		term
+post-market surveillance (PMS)	上市后监督		term
+field safety corrective action (FSCA)	现场安全纠正措施		term
+recall	召回		term
+clinical evaluation	临床评价	注意：clinical trial=临床试验	term
+clinical investigation	临床调查/临床试验		term
+biocompatibility	生物相容性		term
+chemical characterization	化学表征		term
+sterility	无菌		term
+sterilization	灭菌		term
+shelf life	货架寿命/有效期		term
+packaging integrity	包装完整性		term
+single use / disposable	一次性使用		term
+reusable	可重复使用		term
+reprocessing	再处理		term
+clean / sterile	清洁/无菌	勿混淆	term
+labeling	标签（广义，含说明书）		term
+label	标签（狭义）		term
+instructions for use (IFU)	使用说明书		term
+user manual	用户手册		term
+risk management	风险管理		term
+risk analysis	风险分析		term
+risk evaluation	风险评价		term
+risk control	风险控制		term
+residual risk	剩余风险		term
+hazard	危害（源）	hazard vs harm 危害/伤害 区别	term
+harm	伤害		term
+design input / output	设计输入/输出		term
+design verification	设计验证		term
+design validation	设计确认	验证 vs 确认勿混	term
+design transfer	设计转移		term
+design change	设计变更		term
+corrective action	纠正措施		term
+preventive action	预防措施		term
+nonconformity	不合格		term
+process validation	过程确认		term
+installation qualification (IQ)	安装确认		term
+operational qualification (OQ)	运行确认		term
+performance qualification (PQ)	性能确认		term
+validation	确认/验证	按语境：process validation=过程确认，software validation=软件验证	term
+regulatory affairs (RA)	法规事务		term
+registration	注册		term
+marketing authorization	上市许可		term
+conformity assessment	符合性评定		term
+declaration of conformity	符合性声明		term
+authorized representative	授权代表/欧盟代表		term
+importer	进口商		term
+distributor	经销商/分销商		term
+manufacturer	制造商		term
+quality management system (QMS)	质量管理体系		term
+quality manual	质量手册		term
+standard operating procedure (SOP)	标准操作规程		term
+lot number / batch number	批号		term
+serial number	序列号		term
+manufacturing date	生产日期		term
+expiry date / expiration date	失效日期/有效期至		term
+storage conditions	储存条件		term
+temperature range	温度范围		term
+relative humidity	相对湿度		term
+ingress protection (IP)	防护等级（IP 等级）	IP67 不译	term
+electromagnetic compatibility (EMC)	电磁兼容性		term
+software as a medical device (SaMD)	医疗器械软件（独立软件）		term
+usability engineering	可用性工程		term
+human factors	人因工程		term
+device master record (DMR)	器械主记录		term
+device history record (DHR)	器械历史记录		term
+complaint handling	投诉处理		term
+vigilance	警戒（欧盟术语）		term
+incident	事件		term
+near miss	险肇事件		term
+tender	招标		term
+CE marking	CE 标志	CE Marking 不译	term
+declaration of conformity (DoC)	符合性声明		term
+technical file / technical documentation	技术文件/技术文档		term
+essential requirements	基本要求（MDR 术语）		term
+general safety and performance requirements (GSPR)	通用安全与性能要求	MDR 2021 后术语	term
+classification	分类		term
+product code	产品代码		term
+regulatory pathway	注册路径		term
+breakthrough device	突破性器械	FDA 术语	term
+expedited review	优先审评		term
+innovative medical device	创新医疗器械	中国术语	term
+same-type comparison	同品种比对	中国临床评价路径	term
+exemption from clinical trials	豁免临床		term
+clinical trial exemption	临床豁免		term
+marketing authorization holder (MAH)	注册人	中国注册人制度	term
+entrusted production	委托生产		term
+quality agreement	质量协议		term
+supplier	供应商		term
+material certificate	材质证明		term
+certificate of conformance	合格证书		term
+free sale certificate / export certificate	出口销售证明		term
+certificate of free sale (CFS)	自由销售证书		term
+notified body opinion	公告机构意见		term
+annual report	年度报告		term
+periodic safety update report (PSUR)	定期安全更新报告	MDR 术语	term
+summary of safety and clinical performance (SSCP)	安全与临床性能摘要	MDR 术语	term
+hazardous situation	危险情况		term
+foreseeable misuse	可合理预见的误用	ISO 14971 术语	term
+risk analysis / evaluation / control	风险分析 / 评价 / 控制		term
+risk-benefit analysis	获益-风险分析		term
+cleanroom	洁净室		term
+sterile barrier	无菌屏障		term
+bioburden	生物负载		term
+EO sterilization	环氧乙烷灭菌	ISO 11135 / GB 18279	term
+irradiation sterilization	辐照灭菌	ISO 11137 / GB 18280	term
+moist heat sterilization	湿热灭菌	ISO 17665 / GB 18278	term
+sterility assurance level (SAL)	无菌保证水平	SAL ≤ 10⁻⁶ 不译	term
+parametric release	参数发布		term
+overkill method	过度杀灭法		term
+biological indicator (BI)	生物指示剂		term
+biological evaluation	生物学评价		term
+cytotoxicity	细胞毒性		term
+sensitization	致敏		term
+hemocompatibility	血液相容性		term
+genotoxicity	遗传毒性		term
+extractables	可沥滤物	ISO 10993-17/18	term
+software lifecycle	软件生命周期	IEC 62304	term
+use error	使用错误	IEC 62366 术语	term
+formative / summative evaluation	形成性/总结性评估	人因评估两阶段	term
+SOUP	第三方软件	保留缩写	term
+SBOM	软件物料清单	网络安全	term
+cybersecurity	网络安全	MDCG 2019-16	term
+post-market clinical follow-up (PMCF)	上市后临床跟踪		term
+trend report	趋势报告	MDR Art.88	term
+operation license / filing	经营许可 / 备案	中国 54 号令	term
+centralized procurement	集采	医院采购语境	term
+change registration	变更注册	中国 47 号令	term
+renewal of registration	延续注册	届满前 6 个月	term
+DANGER	危险	最高 ｜ 警示强度不可弱化	warning-level
+WARNING	警告	高 ｜ 警示强度不可弱化	warning-level
+CAUTION	注意/小心	中 ｜ 警示强度不可弱化	warning-level
+NOTE	提示/说明	低 ｜ 警示强度不可弱化	warning-level
+CONTRAINDICATION	禁忌	专项 ｜ 警示强度不可弱化	warning-level
+shall	应	强制要求（规范用语）	modal-verb
+should	宜/应当	建议（规范用语）	modal-verb
+may	可以	允许	modal-verb
+must	必须	强调（口语化，正式文档用 shall）	modal-verb
+shall not / must not	不得	禁止	modal-verb
