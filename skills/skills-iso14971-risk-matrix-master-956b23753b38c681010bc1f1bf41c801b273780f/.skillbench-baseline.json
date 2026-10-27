@@ -1,0 +1,31 @@
+{
+  "skill_name": "iso14971-risk-matrix",
+  "total_tests": 4,
+  "passed_tests": 4,
+  "results": [
+    {
+      "test_name": "basic_assess_s4_p2",
+      "passed": true,
+      "output": "ISO 14971 风险估计\n------------------------------------------------------------\n  初始风险：严重度 S4 (危重 Critical) × 概率 P2 (罕见 Remote)\n  风险评分：4 × 2 = 8\n  风险等级：M — 中 / ALARP\n  处置要求：须降到合理可行最低（ALARP）；措施须验证有效，评价剩余风险\n\n  词汇链自查（ISO 14971:2019 第 3 章术语，缺一环即分析不完整）：\n    危害 hazard\n    → 可预见的事件序列 sequence of events\n    → 危险情况 hazardous situation\n    → 伤害 harm\n",
+      "error": ""
+    },
+    {
+      "test_name": "high_risk_s5_p5",
+      "passed": true,
+      "output": "ISO 14971 风险估计\n------------------------------------------------------------\n  初始风险：严重度 S5 (灾难性 Catastrophic) × 概率 P5 (频繁 Frequent)\n  风险评分：5 × 5 = 25\n  风险等级：H — 高 / 不可接受\n  处置要求：重新设计或加强防护措施；若剩余风险仍不可接受，须做获益-风险分析（7.4）\n\n  词汇链自查（ISO 14971:2019 第 3 章术语，缺一环即分析不完整）：\n    危害 hazard\n    → 可预见的事件序列 sequence of events\n    → 危险情况 hazardous situation\n    → 伤害 harm\n\n  提示：高风险项应给出措施后的剩余风险（--rs / --rp）以完成 7.3 评价\n",
+      "error": ""
+    },
+    {
+      "test_name": "residual_risk_comparison",
+      "passed": true,
+      "output": "ISO 14971 风险估计\n------------------------------------------------------------\n  初始风险：严重度 S5 (灾难性 Catastrophic) × 概率 P4 (很可能 Probable)\n  风险评分：5 × 4 = 20\n  风险等级：H — 高 / 不可接受\n  处置要求：重新设计或加强防护措施；若剩余风险仍不可接受，须做获益-风险分析（7.4）\n\n  词汇链自查（ISO 14971:2019 第 3 章术语，缺一环即分析不完整）：\n    危害 hazard\n    → 可预见的事件序列 sequence of events\n    → 危险情况 hazardous situation\n    → 伤害 harm\n\n  剩余风险（措施之后）：S2 × P1 = 2 → L — 低 / 可接受\n",
+      "error": ""
+    },
+    {
+      "test_name": "risk_options_hierarchy",
+      "passed": true,
+      "output": "ISO 14971:2019 §7.1 风险控制方案分析（优先级自上而下）\n\n  (a) 固有安全设计 (inherently safe design and manufacture)\n      从设计上消除危险或降低风险——优先级最高，最可靠\n  (b) 器械本身或制造过程中的防护措施 (protective measures)\n      如屏蔽、联锁、冗余、灭菌工艺参数控制；不依赖使用者行为\n  (c) 安全信息与培训 (information for safety and training)\n      标签、说明书、警示语、培训——最弱的措施，不得单独用于高风险项\n\n  规则：方案 (c) 安全信息不得作为降低高风险项的唯一手段；\n        每个控制措施都须验证其实施与有效性（§7.2）。\n",
+      "error": ""
+    }
+  ]
+}
