@@ -1,0 +1,25 @@
+{
+  "skill_name": "reg-citation-normalizer",
+  "total_tests": 3,
+  "passed_tests": 2,
+  "results": [
+    {
+      "test_name": "normalize_21cfr",
+      "passed": true,
+      "output": "21 CFR 820.30 (a)(6)  →  21 CFR 820.30(a)(6)\n",
+      "error": ""
+    },
+    {
+      "test_name": "normalize_iso",
+      "passed": true,
+      "output": "ISO 13485:2016 clause 7.5.1  →  ISO 13485:2016, 7.5.1\n",
+      "error": ""
+    },
+    {
+      "test_name": "parse_json",
+      "passed": false,
+      "output": "{\n  \"domain\": \"international\",\n  \"type\": \"iso-iec\",\n  \"body\": \"ISO\",\n  \"number\": \"13485\",\n  \"part\": null,\n  \"year\": \"2016\",\n  \"clause\": null,\n  \"paragraphs\": [],\n  \"amd\": \"\",\n  \"canonical\": \"ISO 13485:2016\",\n  \"warnings\": [],\n  \"source_text\": \"ISO 13485:2016\"\n}\n",
+      "error": ""
+    }
+  ]
+}
