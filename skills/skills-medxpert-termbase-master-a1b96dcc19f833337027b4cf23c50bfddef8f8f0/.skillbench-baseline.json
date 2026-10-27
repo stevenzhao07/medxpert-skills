@@ -1,0 +1,25 @@
+{
+  "skill_name": "medxpert-termbase",
+  "total_tests": 3,
+  "passed_tests": 3,
+  "results": [
+    {
+      "test_name": "term_lookup_biocompatibility",
+      "passed": true,
+      "output": "1 match(es) for 'biocompatibility':\n  biocompatibility                             | 生物相容性                      |  [term]\n",
+      "error": ""
+    },
+    {
+      "test_name": "term_lookup_chinese",
+      "passed": true,
+      "output": "8 match(es) for '风险':\n  ISO 14971                                    | 风险管理标准                     | 不译 ｜ 不翻译，原样保留 [keep-as-is]\n  risk management                              | 风险管理                       |  [term]\n  risk analysis                                | 风险分析                       |  [term]\n  risk evaluation                              | 风险评价                       |  [term]\n  risk control                                 | 风险控制                       |  [term]\n  residual risk              ",
+      "error": ""
+    },
+    {
+      "test_name": "stats_inventory",
+      "passed": true,
+      "output": "termbase: C:\\Users\\Administrator\\.agents\\skills\\skills-medxpert-termbase-master-a1b96dcc19f833337027b4cf23c50bfddef8f8f0\\references\\termbase.tsv\ntotal entries: 164\n  term            135\n  keep-as-is      19\n  warning-level   5\n  modal-verb      5\nmis-translation rules: 36\ncanonical standard codes: 8\n",
+      "error": ""
+    }
+  ]
+}
