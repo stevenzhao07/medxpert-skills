@@ -1,0 +1,37 @@
+﻿bad	good	reason	severity
+临床实验	临床试验	clinical trial 是"试验"；"实验"对应 experiment	error
+过程验证	过程确认	process validation 中文规范译法为"过程确认"；"验证"对应 verification	error
+工艺验证	工艺确认	同上：validation → 确认	error
+生物兼容性	生物相容性	biocompatibility 规范译法	error
+血液兼容性	血液相容性	hemocompatibility 规范译法	error
+生物负荷	生物负载	bioburden 规范译法	error
+细胞毒	细胞毒性	cytotoxicity 规范译法	error
+包装完好性	包装完整性	packaging integrity 规范译法	error
+再加工	再处理	reprocessing（复用器械）规范译法	error
+翻新	再处理	reprocessing 规范译法；"翻新"易与 refurbish 混淆	error
+风险效益分析	获益-风险分析	ISO 14971 中文版术语为"获益-风险分析"	error
+风险利益分析	获益-风险分析	ISO 14971 中文版术语为"获益-风险分析"	error
+不良事故	不良事件	adverse event 规范译法	error
+产品回收	产品召回	recall 中文规范译法为"召回"	error
+上市后监管	上市后监督	post-market surveillance 规范译法为"上市后监督"	error
+现场安全修正措施	现场安全纠正措施	field safety corrective action（FSCA）规范译法	error
+现场安全纠正行动	现场安全纠正措施	field safety corrective action（FSCA）规范译法	error
+授权代理	授权代表	authorized representative 规范译法	error
+符合性评估	符合性评定	conformity assessment 规范译法为"符合性评定"	error
+技术档案	技术文件	technical file / technical documentation 规范译法	error
+生产商	制造商	manufacturer 规范译法为"制造商"	error
+经销人	经销商	distributor 规范译法	error
+使用手册	使用说明书	instructions for use（IFU）规范译法	error
+器械历史档案	器械历史记录	device history record（DHR）规范译法	error
+保质期	有效期	shelf life 在医械语境用"有效期"或"货架寿命"	error
+可预见误用	可合理预见的误用	ISO 14971 foreseeable misuse 规范译法	error
+一次性	一次性使用	single use 完整译法为"一次性使用"	error
+CE 认证	CE 标志	CE marking 是标志（自我声明+符合性评定），不是第三方"认证"	error
+FDA 510K	510(k)	美国上市前通知法定写法为 510(k)	error
+ISO13485	ISO 13485	标准号原样保留，机构缩写与编号间留空格	error
+GB9706.1	GB 9706.1	标准号原样保留，机构缩写与编号间留空格	error
+国际标准化组织13485	ISO 13485	标准号不翻译	error
+欧盟医疗器械指令	MDR (EU) 2017/745	2017/745 生效后 MDR 已取代 MDD 93/42/EEC，引用须用新法规	error
+欧洲联盟医疗器械法规	MDR (EU) 2017/745	法规名不翻译，用编号简称	error
+必须	应	正式文档强制要求用「应」（shall）；「必须」为口语化强调	info
+基本要求	通用安全与性能要求	GSPR 自 MDR (EU) 2017/745 生效后取代 MDD 的"基本要求"；引用旧法规文本时才用"基本要求"	info
