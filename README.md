@@ -58,3 +58,21 @@ Then ask your AI agent:
 ⭐ If this helps you, give us a star!
 
 </div>
+
+---
+
+## FHIR Terminology Contribution Package (fhir-contribution/)
+
+MedXpert 医械法规中英双语术语的 **FHIR R5 资源包**，可直接服务于 FHIR 术语服务（`$lookup` / `$translate`）与 HL7/FHIR 生态贡献。
+
+| Item | Value |
+|---|---|
+| 命名空间 | https://stevenzhao07.github.io/medxpert-fhir/ |
+| 资源 | CodeSystem ×4（EN 164 / ZH 159 / 误译 36 / designation-use 4）、ValueSet ×4、ConceptMap ×2、ImplementationGuide ×1 |
+| 数据源 | `skills/skills-medxpert-termbase-master-*/references/`（termbase.tsv 164 条 + mistranslations.tsv 36 条） |
+| 复现 | `python build_fhir.py && python generate_ig.py && python validate_all_schema.py` |
+| 校验 | FHIR R5 官方 JSON Schema **11/11 PASS**（2026-10-28） |
+| 提交说明 | `fhir-contribution/CONTRIBUTION.md`（含原创性声明与提交通道） |
+| 状态 | draft · 发布前审查"须修后发"进行中，正式提交前将发布 GitHub Pages 并提供可访问 IG 页面 |
+
+**为什么贡献给 HL7/FHIR：** FHIR 公开术语空间缺少"医械法规领域 + 中英双语 + 误译纠正规则"的系统性资源；本包填补该空白，且已通过 HL7 IG 指南确认的合法外部贡献路径（自建 CodeSystem 纳入 IG）准备提交。
