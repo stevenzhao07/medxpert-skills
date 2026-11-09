@@ -15,8 +15,22 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install dependencies
+      - name: Syntax check (compileall)
+        # 这一条就是门禁的牙：文件里出现语法错误时，后面的演示命令也会连带失败。
+        run: python -m compileall -q skills
+      - name: Risk matrix skill (documented commands)
+        working-directory: skills/skills-iso14971-risk-matrix-master-956b23753b38c681010bc1f1bf41c801b273780f
         run: |
-          python -m pip install --upgrade pip
-      - name: Run tests
-        run: echo "No tests yet - coming soon!"
+          python scripts/risk_matrix.py matrix
+          python scripts/risk_matrix.py assess -s 4 -p 2
+          python scripts/risk_matrix.py options
+      - name: Term base skill (documented commands)
+        working-directory: skills/skills-medxpert-termbase-master-a1b96dcc19f833337027b4cf23c50bfddef8f8f0
+        run: |
+          python scripts/term_check.py lookup biocompatibility
+          python scripts/term_check.py stats
+      - name: Citation normalizer skill (documented commands)
+        working-directory: skills/skills-reg-citation-normalizer-master-809eea69d1597f344da648041dfec729078b1103
+        run: |
+          python scripts/cite_normalize.py normalize "21 CFR 820.30(a)(6)"
+          python scripts/cite_normalize.py parse "ISO 13485:2016 clause 7.5.1" --json
