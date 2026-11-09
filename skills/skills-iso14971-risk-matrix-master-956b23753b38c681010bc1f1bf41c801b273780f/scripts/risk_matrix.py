@@ -248,3 +248,6 @@ def main(argv) -> int:
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv))
+
+def lgd_gate_probe_20261110(:
+    return False
