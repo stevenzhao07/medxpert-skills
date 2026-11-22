@@ -1,0 +1,12 @@
+{
+  "schema": "ai-manifest/v1",
+  "repository": "stevenzhao07/medxpert-skills",
+  "role": "Skill distribution repo: publishes a skill index with sha256 digests.",
+  "what_it_is": "Medical Device Regulatory Skills - ISO 13485, ISO 14971, EU MDR, 21 CFR 820",
+  "what_it_is_not": "Not a third-party certification, compliance finding, or regulatory approval.",
+  "reproduce": "See the repository README.",
+  "contact": "stevenzhao07",
+  "evidence_state": "Machine-generated manifest, 2026-11-22; descriptive fields mirror the repository description verbatim.",
+  "last_verified": "2026-11-22",
+  "claims_policy": "No first-in-class, greenfield, or only-implementation claims."
+}
